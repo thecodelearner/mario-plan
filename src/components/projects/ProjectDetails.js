@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { firestoreConnect } from 'react-redux-firebase'
 import { compose } from 'redux'
-import { firestore } from 'firebase'
+// import { firestore } from 'firebase'
 
 const ProjectDetails = (props) => {
 	// const id = props.match.params.id;
