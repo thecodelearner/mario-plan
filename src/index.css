@@ -44,3 +44,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   box-shadow: none;
 }
 /*#ec407a*/
+
+.notifList li {
+  padding: 10px 0;
+}

@@ -42,6 +42,6 @@ export default compose(
 	connect(mapStateToProps),
 	firestoreConnect([
 		{ collection: 'projects' },
-		{ collection: 'notifications', limit: 3 },
+		{ collection: 'notifications', limit: 5 },
 	])
 )(Dashboard)
