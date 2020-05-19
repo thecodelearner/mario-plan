@@ -7,8 +7,8 @@ const SignedInLinks = (props) => {
 
 	return (
 		<ul className='right'>
-			<li><NavLink to='/create'>New Project</NavLink></li>
-			<li><a href='/signin' onClick={props.signOut}>Log Out</a></li>
+			<li><NavLink to='/create'><i class="material-icons">playlist_add</i></NavLink></li>
+			<li><a href='/signin' onClick={props.signOut}><i class="material-icons">exit_to_app</i></a></li>
 			<li><NavLink to='/' className='btn btn-floating green'>
 				{props.profile.initials}
 			</NavLink></li>
