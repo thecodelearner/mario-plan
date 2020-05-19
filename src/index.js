@@ -38,14 +38,11 @@ const rrfProps = {
 };
 
 
-
 function AuthIsLoaded({ children }) {
 	const auth = useSelector(state => state.firebase.auth)
 	if (!isLoaded(auth)) return <div className="center"><p>Loading Mario Plan...</p></div>;
 	return children;
 }
-
-
 
 
 ReactDOM.render(
@@ -60,5 +57,6 @@ ReactDOM.render(
 	</React.StrictMode>,
 	document.getElementById('root')
 );
+
 
 serviceWorker.register();
