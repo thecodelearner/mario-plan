@@ -20,6 +20,8 @@ class CreateProject extends Component {
 		e.preventDefault();
 		// console.log(this.state)
 		this.props.createProject(this.state);
+		// * redirect user to homepage after create post
+		this.props.history.push('/');
 	}
 
 	render() {
